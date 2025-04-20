@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rick and Morty App</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/Ventana.png" type="image/png">
+</head>
+<body>
+  <div class="logo-container">
+    <img src="images/Icono2.png" alt="Logo" class="logo">
+  </div>
+
+  <h1>Buscar Personajes - Rick and Morty</h1>
+  
+  <!-- Caja de búsqueda donde los usuarios pueden ingresar el nombre de un personaje -->
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Escribe un nombre de personaje" onkeydown="checkEnter(event)">
+    <button onclick="fetchPersonaje()">Buscar</button>
+  </div>
+
+  <a href="index.html" class="volver-btn">Volver al inicio</a>
+
+
+  <div id="characterList" class="grid"></div>
+
+  <!-- Modal para mostrar detalles del personaje -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <div id="modalCharacter"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
