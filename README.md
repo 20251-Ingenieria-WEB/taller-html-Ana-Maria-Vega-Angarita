@@ -1,6 +1,4 @@
 # taller-html-Ana-Maria-Vega-Angarita
-Aplicación creada para realizar la búsqueda de personajes de Rick And Morty.
-
 # 🧪 Rick and Morty Explorer
 
 ¡Bienvenido a **Rick and Morty Explorer**!  
