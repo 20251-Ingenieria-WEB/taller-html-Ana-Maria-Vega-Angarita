@@ -14,7 +14,7 @@ El objetivo de esta aplicación es:
 
 - 🔎 Proporcionar una interfaz **interactiva y amigable** para explorar personajes.
 - 🧠 Implementar funcionalidades modernas como **búsqueda dinámica** y **modales emergentes**.
-- 🛠️ Poner en práctica tecnologías web como **HTML**, **CSS**, **JavaScript** y consumo de **APIs REST**.
+- 🛠️ Poner en práctica tecnologías web como **HTML**, **CSS**, **JavaScript** y consumo de **APIs**.
 
 ---
 
